@@ -51,7 +51,7 @@ In this project, Groq’s **LPU** is leveraged to power the inference engine for
 ## Project Structure
 ```plaintext
 ChatGroq-Demo-with-Streamlit/
-├── api/
+├── groq/
 │   ├── app.py            #  application
 │  
 ├── .env                  # Environment variables for API key
