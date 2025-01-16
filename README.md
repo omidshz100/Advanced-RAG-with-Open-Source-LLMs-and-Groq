@@ -94,8 +94,8 @@ The following Python libraries are used:
 ### Steps
 ## 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Sithum-Bimsara/Advanced-RAG-with-Open-Source-LLMs-and-Groq.git
+   cd Advanced-RAG-with-Open-Source-LLMs-and-Groq
    ```
 ## 2. Create a Virtual Environment
 On Windows:
@@ -129,15 +129,18 @@ pip install -r requirements.txt
      ```
      GROQ_API_KEY="your_groq_api_key_here"
      ```
-     ```
 Replace `your_groq_api_key_here` with your actual Groq API key.
 
----
+
 ## 6. Run the Streamlit application:
    ```bash
    streamlit run app.py
    ```
 ## 7. Access the application in your browser at `http://localhost:8501`.
+
+
+----
+
 
 ## Application Usage
 1. Load documents from the web using the built-in loader.
